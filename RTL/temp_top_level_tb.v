@@ -113,7 +113,7 @@ always @(posedge done_accum) begin //address offset generation
 end
 
 always @(posedge done_accum) begin //address offset generation
-	if (flag == 16383) begin
+	if (flag == 4000) begin
 		flag <= 0;
 		$fclose(f); 
 		$finish;
