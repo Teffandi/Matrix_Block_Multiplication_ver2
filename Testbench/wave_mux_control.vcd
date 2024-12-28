@@ -1,0 +1,103 @@
+$date
+	Thu Dec 26 17:00:45 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module control_mux_tb $end
+$var wire 4 ! mux_reset [3:0] $end
+$var reg 1 " clock $end
+$var reg 1 # reset $end
+$scope module control_0 $end
+$var wire 1 " clock $end
+$var wire 1 # reset $end
+$var wire 4 $ mux_reset [3:0] $end
+$var reg 8 % counter [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000111 %
+b111 $
+1#
+1"
+b111 !
+$end
+#5
+0"
+#10
+b11 !
+b11 $
+b11000011 %
+1"
+0#
+#15
+0"
+#20
+b1 !
+b1 $
+b11100001 %
+1"
+#25
+0"
+#30
+b0 !
+b0 $
+b11110000 %
+1"
+#35
+0"
+#40
+b1000 !
+b1000 $
+b1111000 %
+1"
+#45
+0"
+#50
+b1100 !
+b1100 $
+b111100 %
+1"
+#55
+0"
+#60
+b1110 !
+b1110 $
+b11110 %
+1"
+#65
+0"
+#70
+b1111 !
+b1111 $
+b1111 %
+1"
+#75
+0"
+#80
+b111 !
+b111 $
+b10000111 %
+1"
+#85
+0"
+#90
+b11 !
+b11 $
+b11000011 %
+1"
+#95
+0"
+#100
+b1 !
+b1 $
+b11100001 %
+1"

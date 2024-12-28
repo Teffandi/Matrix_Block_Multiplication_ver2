@@ -1,0 +1,57 @@
+$date
+	Thu Dec 26 13:03:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " input_1 [15:0] $end
+$var reg 16 # input_2 [15:0] $end
+$var reg 16 $ input_3 [15:0] $end
+$var reg 16 % input_4 [15:0] $end
+$var reg 1 & reset $end
+$var reg 2 ' select [1:0] $end
+$scope module mux_4_1 $end
+$var wire 16 ( input_1 [15:0] $end
+$var wire 16 ) input_2 [15:0] $end
+$var wire 16 * input_3 [15:0] $end
+$var wire 16 + input_4 [15:0] $end
+$var wire 1 & reset $end
+$var wire 2 , select [1:0] $end
+$var reg 16 - out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1100000000 -
+b0 ,
+b0 +
+b100000000 *
+b1000000000 )
+b1100000000 (
+b0 '
+0&
+b0 %
+b100000000 $
+b1000000000 #
+b1100000000 "
+b1100000000 !
+$end
+#10
+b1000000000 !
+b1000000000 -
+b1 '
+b1 ,
+#20
+b0 !
+b0 -
+1&
+#30
