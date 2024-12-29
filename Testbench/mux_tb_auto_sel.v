@@ -32,7 +32,7 @@ end
 initial begin
 reset <= 1;
 clock <= 0;
-#5
+#1
 input_1 <= 16'h0300;
 input_2 <= 16'h0200;
 input_3 <= 16'h0100;
@@ -44,7 +44,7 @@ input_2 <= 16'h0200;
 input_3 <= 16'h0100;
 input_4 <= 16'h0000;
 reset <= 0;
-#10
+#30
 input_1 <= 16'h0300;
 input_2 <= 16'h0200;
 input_3 <= 16'h0100;
