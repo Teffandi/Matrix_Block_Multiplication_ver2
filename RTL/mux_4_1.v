@@ -14,7 +14,7 @@ module mux_4_1 (
 reg [1:0] select;
 
 
-always @(posedge clock or posedge reset) begin
+always @(*) begin
 
 if (!reset) begin 
 case (select)
