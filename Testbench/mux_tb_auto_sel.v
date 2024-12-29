@@ -24,7 +24,7 @@ wire [15:0] out;
 
 
 initial begin
-	repeat(5)
+	repeat(10)
 		#5 clock <= ~clock;
 end
 
@@ -44,7 +44,7 @@ input_2 <= 16'h0200;
 input_3 <= 16'h0100;
 input_4 <= 16'h0000;
 reset <= 0;
-#30
+#40
 input_1 <= 16'h0300;
 input_2 <= 16'h0200;
 input_3 <= 16'h0100;

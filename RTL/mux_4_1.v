@@ -14,21 +14,20 @@ module mux_4_1 (
 reg [1:0] select;
 
 
-always @(*) begin
+always @(posedge clock or posedge reset) begin
 
-if (!reset) begin 
-case (select)
+if (reset) begin 
+    out <= 16'd0;
+    select <= 2'd0;
+
+end else begin
+    case (select)
     2'b00 : out <= input_1;
     2'b01 : out <= input_2;
     2'b10 : out <= input_3;
     2'b11 : out <= input_4;
-
 endcase
 select <= select+1;
-
-end else begin
-    out <= 16'd0;
-    select <= 2'd0;
 end
 
 
